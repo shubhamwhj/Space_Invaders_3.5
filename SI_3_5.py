@@ -29,11 +29,14 @@ while True:
                 player.x +=playerSpeed
             if event.key == pygame.K_SPACE:
                 bulletState="fired"
-    
+    #Code for the ready state 
     if bulletState == "ready":
         bullet.x=player.x+12
         bullet.y=player.y
     
+    #Add the code for the fired state.
+        
+        #Add the code to change the state back to ready state once bullet goes out from top edge of the screen
     
 
                    
